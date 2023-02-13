@@ -1,0 +1,65 @@
+body {
+    background: #1D1F20;
+    color: #C22160;
+    font-family: sans-serif;
+}
+
+
+
+ .circle21 {
+    content: "";
+    position: absolute;
+    background: #EA4C89;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+    border-radius: 50%;
+    /*animation-direction: alternate;*/
+}
+
+ .circle22 {
+    content: "";
+    position: absolute;
+    background: #EA4C89;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+    margin-left: 30px;
+    border-radius: 50%;
+    /*animation-direction: alternate;*/
+}
+
+@keyframes pump {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+@keyframes change1 {
+    0%,
+    25% {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    50%,
+    75% {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+
+@keyframes change2 {
+    25%,
+    50% {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    75%,
+    100% {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+}
